@@ -9,7 +9,7 @@ export default class Header extends React.Component {
     return (
       <header className='header'>
         <div className='header__wrapper'>
-          <a href='https://qsoft.ru/' class='header__logo'>
+          <a href='https://qsoft.ru/' className='header__logo'>
             <img src={logo} width='144px' height='39px' alt='logo' />
           </a>
 
@@ -45,7 +45,7 @@ export default class Header extends React.Component {
           <span className='header__user'>Константин</span>
 
           <picture>
-            <source media='(max-width: 767px)' srcset={userMob} />
+            <source media='(max-width: 767px)' srcSet={userMob} />
             <img
               className='header__avatar'
               src={avatar}

@@ -12,12 +12,12 @@ export default class Main extends React.Component {
   render() {
     return (
       <main>
-        <h1 class='visually-hidden'>Тестовое задание</h1>
+        <h1 className='visually-hidden'>Тестовое задание</h1>
         <section className='partners'>
           <h2 className='partners__title'>Наши партнёры</h2>
 
-          <ul class='partners__list'>
-            <li class='partners__item partners__item-henkel'>
+          <ul className='partners__list'>
+            <li className='partners__item partners__item-henkel'>
               <a className='partners__link' href='henkel.com'>
                 <img
                   src={henkel}
@@ -28,7 +28,7 @@ export default class Main extends React.Component {
               </a>
             </li>
 
-            <li class='partners__item partners__item-john'>
+            <li className='partners__item partners__item-john'>
               <a className='partners__link' href='john.com'>
                 <img
                   src={john}
@@ -39,7 +39,7 @@ export default class Main extends React.Component {
               </a>
             </li>
 
-            <li class='partners__item partners__item-mac'>
+            <li className='partners__item partners__item-mac'>
               <a className='partners__link' href='mcdonalds.com'>
                 <img
                   src={mac}
@@ -50,7 +50,7 @@ export default class Main extends React.Component {
               </a>
             </li>
 
-            <li class='partners__item partners__item-ikea'>
+            <li className='partners__item partners__item-ikea'>
               <a className='partners__link' href='ikea.com'>
                 <img
                   src={ikea}
@@ -61,7 +61,7 @@ export default class Main extends React.Component {
               </a>
             </li>
 
-            <li class='partners__item partners__item-reebok'>
+            <li className='partners__item partners__item-reebok'>
               <a className='partners__link' href='reebok.com'>
                 <img
                   src={reebok}
@@ -72,7 +72,7 @@ export default class Main extends React.Component {
               </a>
             </li>
 
-            <li class='partners__item partners__item-nike'>
+            <li className='partners__item partners__item-nike'>
               <a className='partners__link' href='nike.com'>
                 <img
                   src={nike}
@@ -83,7 +83,7 @@ export default class Main extends React.Component {
               </a>
             </li>
 
-            <li class='partners__item partners__item-cat'>
+            <li className='partners__item partners__item-cat'>
               <a className='partners__link' href='cat.com'>
                 <img
                   src={cat}
