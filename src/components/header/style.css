@@ -1,0 +1,140 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  background: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header__wrapper {
+  display: flex;
+  max-width: 1168px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+}
+
+.header__logo {
+  padding-top: 7px;
+  margin-left: -5px;
+}
+
+.search__wrapper {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  margin-left: 56px;
+  margin-right: 60px;
+}
+
+.search-form {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.search-form input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #bbc4d6;
+  height: 36px;
+  padding-left: 37px;
+  border-radius: 5px;
+  background: #ffffff;
+  border: 1px solid #ebebf1;
+  width: 100%;
+}
+
+.search-form label {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+
+.search__find {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1743d7;
+  margin-right: auto;
+}
+
+.header__user {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #768298;
+  padding: 31px 0px 31px 20px;
+  border-left: 1px solid #ebebf1;
+}
+
+.header__avatar {
+  padding-left: 10px;
+}
+
+@media (max-width: 1439px) {
+  .header__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .search__wrapper {
+    margin-left: 45px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__wrapper {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__logo {
+    margin-left: 18px;
+    padding-bottom: 7px;
+  }
+
+  .header__user {
+    display: none;
+  }
+
+  .search__wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .search-form input {
+    border-radius: 0;
+    border-bottom: none;
+    padding-left: 49px;
+    height: 38px;
+  }
+
+  .search-form label {
+    left: 23px;
+  }
+
+  .header__avatar {
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    width: 24px;
+    height: 24px;
+  }
+}

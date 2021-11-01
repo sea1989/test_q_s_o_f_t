@@ -1,0 +1,144 @@
+.partners {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 70px 30px 70px;
+}
+
+.partners__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  margin: 0;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.partners__item {
+  display: flex;
+  width: 22.9%;
+  height: 119px;
+  border: 1px solid #ebebf1;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners__item:hover,
+.partners__item:focus {
+  -webkit-box-shadow: -3px 0 40px rgb(0 0 0 / 10%),
+    0 0 10px rgb(164 164 164 / 3%);
+  box-shadow: -3px 0 40px rgb(0 0 0 / 10%), 0 0 10px rgb(164 164 164 / 3%);
+  cursor: pointer;
+}
+
+.partners__item img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1439px) {
+  .partners {
+    padding: 70px 20px 70px;
+  }
+
+  .partners__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 160%;
+  }
+
+  .partners__list {
+    gap: 20px;
+  }
+
+  .partners__item {
+    width: 31.2%;
+  }
+
+  .partners__item-john a {
+    width: 183px;
+    height: 48px;
+  }
+
+  .partners__item-mac a {
+    width: 99px;
+    height: 74px;
+  }
+
+  .partners__item-ikea a {
+    width: 175px;
+    height: 70px;
+  }
+
+  .partners__item-ikea a {
+    width: 175px;
+    height: 70px;
+  }
+
+  .partners__item-reebok a {
+    width: 187px;
+    height: 50px;
+  }
+
+  .partners__item-nike a {
+    width: 143px;
+    height: 74px;
+  }
+  .partners__item-cat a {
+    width: 196px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .partners__item {
+    width: 100%;
+    height: 138px;
+  }
+
+  .partners__title {
+    margin-bottom: 31px;
+  }
+
+  .partners__item-henkel a {
+    width: 145px;
+    height: 82px;
+  }
+
+  .partners__item-john a {
+    width: 234px;
+    height: 64px;
+  }
+
+  .partners__item-mac a {
+    width: 100px;
+    height: 75px;
+  }
+
+  .partners__item-ikea a {
+    width: 194px;
+    height: 78px;
+  }
+
+  .partners__item-reebok a {
+    width: 232px;
+    height: 68px;
+  }
+
+  .partners__item-nike a {
+    width: 141px;
+    height: 74px;
+  }
+  .partners__item-cat a {
+    width: 247px;
+    height: 38px;
+  }
+}
